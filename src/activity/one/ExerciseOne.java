@@ -34,8 +34,7 @@ public class ExerciseOne {
      * TO-DO code here the logic that returns the total number of unique words
      * from TestThree.txt
      *
-     * @param filePath the text file that will be read. This text file only
-     * contains number.
+     * @param filePath the text file that will be read.
      *
      * @return total unique words
      */
