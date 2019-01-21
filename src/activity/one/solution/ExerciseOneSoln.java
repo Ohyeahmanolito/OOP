@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package activity.one;
+package activity.one.solution;
 
+import activity.one.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.HashSet;
@@ -13,7 +14,7 @@ import java.util.HashSet;
  *
  * @author mvoctavianojr
  */
-public class ExerciseOne {
+public class ExerciseOneSoln {
 
     /**
      * TO-DO code here the logic that sum all characters from TestOne.txt and
@@ -28,7 +29,23 @@ public class ExerciseOne {
      * @return total character counts from the two files.
      */
     public int getTotalOfTwoFiles(String filePathOne, String filePathTwo) {
-       return 0;
+        int var1 = 0;
+        int var2 = 0;
+        try {
+            BufferedReader read = new BufferedReader(new FileReader(filePathOne));
+            String line = null;
+            while ((line = read.readLine()) != null) {
+                var1 += line.length();
+            }
+
+            read = new BufferedReader(new FileReader(filePathTwo));
+            line = null;
+            while ((line = read.readLine()) != null) {
+                var2 += line.length();
+            }
+        } catch (Exception e) {
+        }
+        return HelperClass.add(var1, var2);
     }
 
     /**
@@ -40,7 +57,23 @@ public class ExerciseOne {
      * @return total unique words
      */
     public int totalUnique(String filePath) {
-      return 0;
+        HashSet<String> setList = new HashSet<>();
+        try {
+            BufferedReader read = new BufferedReader(new FileReader(filePath));
+            String line = null;
+            while ((line = read.readLine()) != null) {
+
+                String[] wordArray = line.split(" ");
+
+                for (int index = 0; index < wordArray.length; index++) {
+                    setList.add(wordArray[index]);
+                }
+            }
+
+        } catch (Exception e) {
+        }
+
+        return setList.size();
     }
 
     /**

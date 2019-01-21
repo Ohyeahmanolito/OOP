@@ -6,6 +6,7 @@
 package lesson.one.partOne;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -16,6 +17,7 @@ public class ArrayListExample {
     public static void main(String[] args) {
 
         ArrayList<String> listSample = new ArrayList<>();
+        List<String> an = new ArrayList<>();
         ArrayList<String> listSampleTwo = new ArrayList<>();
 
 //        Add elements in the list.
@@ -29,12 +31,12 @@ public class ArrayListExample {
 //         ----
 //         --- 
 //         Getting the value inside the list
-//         System.out.println(listSampleTwo.get(0));
+//         System.out.println(listSample.get(0));
 //         ----
 //         ----
 //         Checking the content of the list
-//        boolean isContain = listSampleTwo.contains("lito");
-//        System.out.println("isContain at listSampleTwo: " + isContain);
+ //       boolean isContain = listSample.contains("mano");
+ //       System.out.println("isContain at listSampleTwo: " + isContain);
 //         ----
 //         ----
 //         Checking the index of the specific value

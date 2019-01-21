@@ -31,6 +31,7 @@ public class HashSetExample {
 //        System.out.println("remove dog: " + animals.remove("dog"));
 //        System.out.println("new size: " + animals.size());
 //        System.out.println("remove rat: " + animals.remove("rat"));
+//        System.out.println("new size: " + animals.size());
 //         ----
 //         ----
 // Display all values
@@ -42,5 +43,6 @@ public class HashSetExample {
 //        Check if element exists in the set
 //        boolean isContains = animals.contains("sean");
 //        System.out.println("set contains sean? " + isContains);
+
     }
 }
