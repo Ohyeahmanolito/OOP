@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.one.partOne;
+package lesson.two.partOne;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,11 +22,11 @@ public class HashMapExample {
         foodStore.put("Gourment", 6000);
         foodStore.put("UCC", 9999);
         foodStore.put("Yakimix", 11111);
-        foodStore.put("Yakimix", 11111);
+      
 
 //        Checking if the shop is in the foodStore
-//        System.out.println(foodStore.get("jollibee"));
-//        System.out.println("jollibee is: " + foodStore.getOrDefault("jollibee", -444));
+//        System.out.println(foodStore.get("UCC"));
+//        System.out.println("jollibee is: " + foodStore.getOrDefault("jollibee", 666));
 //        --
 //        --
 //        Display all foodStore

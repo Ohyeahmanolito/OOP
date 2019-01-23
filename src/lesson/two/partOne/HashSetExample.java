@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.one.partOne;
+package lesson.two.partOne;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -38,6 +38,7 @@ public class HashSetExample {
 //        for (String animal : animals) {
 //            System.out.println(animal);
 //        }
+//        
 //         ----
 //         ----
 //        Check if element exists in the set

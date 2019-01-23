@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.one.partTwo;
+package lesson.two.partTwo;
 
 import java.util.ArrayList;
 import java.util.HashMap;

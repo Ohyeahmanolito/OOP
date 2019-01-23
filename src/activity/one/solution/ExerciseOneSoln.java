@@ -5,7 +5,6 @@
  */
 package activity.one.solution;
 
-import activity.one.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.HashSet;

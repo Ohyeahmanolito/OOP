@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.one.partOne;
+package lesson.two.partOne;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,8 +35,8 @@ public class ArrayListExample {
 //         ----
 //         ----
 //         Checking the content of the list
- //       boolean isContain = listSample.contains("mano");
- //       System.out.println("isContain at listSampleTwo: " + isContain);
+//        boolean isContain = listSample.contains("mano");
+//        System.out.println("isContain at listSampleTwo: " + isContain);
 //         ----
 //         ----
 //         Checking the index of the specific value
@@ -45,10 +45,12 @@ public class ArrayListExample {
 //         ----
 //         ----
 //         Remove the value in the array and print all values
-//        System.out.println(listSample.remove("mano"));
-//        for (String temp : listSample) {
-//            System.out.println(temp);
-//        }
-
+        System.out.println(listSample.remove("mano"));
+        for (String temp : listSample) {
+            System.out.println(temp);
+        }
+        for (int counter = 0; counter < listSample.size(); counter++) {
+            System.out.println(listSample.get(counter));
+        } // SAME AS THE ABOVE LOOP
     }
 }
