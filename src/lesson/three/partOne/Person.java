@@ -11,7 +11,7 @@ package lesson.three.partOne;
  */
 public class Person {
 
-    private String name;
+    String name;
     private int age;
     static String temp;
 

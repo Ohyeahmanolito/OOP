@@ -14,6 +14,44 @@ public class Executor {
     public static void main(String[] args) {
         Alfonso firstDog = new Alfonso();
         firstDog.sound();
-    }
-
+        
+       
+    }                                           
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+public static void ManoLovesKids(String LoliKids){
+    System.out.println("I love you Kids Matigas na saging ko hehe");
+}
 }

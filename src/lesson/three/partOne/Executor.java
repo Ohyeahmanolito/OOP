@@ -5,26 +5,41 @@
  */
 package lesson.three.partOne;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ITRO
  */
 public class Executor {
 
-    public static void displayProfile(Person x) {
-        int temp = x.getAge();
-        System.out.println("age of person is: " + temp);
-        x.temp = "sdfsdf";
+    public static void temp() {
+        String[] list = {"four", "score", "and", "seven"};
+        ArrayList<String> listArr = new ArrayList<>();
+
+        //add elements to list array
+        for (String temp : list) {
+            listArr.add(temp);
+        }
+
+       
+        // remove
+        for (int counter = listArr.size() - 1; counter >= 0; counter--) {
+            if (listArr.get(counter).length() % 2 == 0) {
+                listArr.remove(counter);
+            }
+        }
+        // display values
+        for (String temp : listArr) {
+            System.out.println(": " + temp);
+        }
+    }
+
+    public static void displayPerson(Person p) {
     }
 
     public static void main(String[] args) {
 
-        Person first = new Person();
-        Person second = new Person();
-        Executor t = new Executor();
-        
-        System.out.println("first: " + first.temp);
-        Executor.displayProfile(second);
-        System.out.println("first: " + first.temp);
+        temp();
     }
 }

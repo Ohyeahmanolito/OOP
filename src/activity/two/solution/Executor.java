@@ -12,26 +12,25 @@ package activity.two.solution;
 public class Executor {
 
     public static void main(String[] args) {
-        Date date = new Date(6, 6, 6);
-
-        date.displayDate();
-
-        date.setDay(4);
-        date.displayDate();
-
-        System.out.println("month: " + date.getMonth());
 
 //        SavingAccount saver1 = new SavingAccount(2000);
 //        SavingAccount saver2 = new SavingAccount(3000);
 //
 //        SavingAccount.modifyInterestRate(0.04);
 //
-//        System.out.println("saver1: " + saver1.calculateMontlyInterested());
-//        System.out.println("saver2: " + saver2.calculateMontlyInterested());
+//        System.out.println("saver1: " + saver1.calculateMontlyInterest());
+//        System.out.println("saver2: " + saver2.calculateMontlyInterest());
 //        
 //        SavingAccount.modifyInterestRate(0.05);
 //        
-//        System.out.println("saver1: " + saver1.calculateMontlyInterested());
-//        System.out.println("saver2: " + saver2.calculateMontlyInterested());
+//        System.out.println("saver1: " + saver1.calculateMontlyInterest());
+//        System.out.println("saver2: " + saver2.calculateMontlyInterest());
+  
+        Date haha = new Date(12, 27, 2018);
+        haha.displayDate();
+        haha.setDay(99);
+        haha.displayDate();
+        int month = haha.getMonth();
+        System.out.println("the month: " + month);
     }
 }
