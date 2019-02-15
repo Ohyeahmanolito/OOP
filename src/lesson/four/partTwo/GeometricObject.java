@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.three.partTwo;
+package lesson.four.partTwo;
 
 /**
  *
  * @author ITRO
  */
-public class Dog extends Animal {
-
-    public Dog() {
-        System.out.println("inside dog");
-    }
-
-    public void sound() {
-        System.out.println("Dog sound");
-    }
+public interface GeometricObject {
+    public double getParameter();
+    public double getArea();
 }

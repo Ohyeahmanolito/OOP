@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.three.partTwo;
+package lesson.four.partTwo;
 
 /**
  *
  * @author ITRO
  */
-public class Sean extends Dog {
+public class TheResizeableCircle extends TheCircleTwo implements Resizable {
 
-    public Sean() {
-        System.out.println("aw aw sean constructor");
+    public TheResizeableCircle(double radius) {
+        super(radius);
     }
 
     @Override
-    public void sound() {
-        System.out.println("sean sound");
+    public void resize(int percent) {
+
     }
+
 }

@@ -12,9 +12,9 @@ package lesson.three.partTwo;
 public class Executor {
 
     public static void main(String[] args) {
-        Alfonso firstDog = new Alfonso();
-        firstDog.sound();
-        
+     
+        Alfonso smallDog = new Alfonso();
+        smallDog.sound();
        
     }                                           
     

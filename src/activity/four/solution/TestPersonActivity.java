@@ -3,20 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.three.partTwo;
+package activity.four.solution;
 
 /**
  *
  * @author ITRO
  */
-public class Sean extends Dog {
+public class TestPersonActivity {
 
-    public Sean() {
-        System.out.println("aw aw sean constructor");
-    }
-
-    @Override
-    public void sound() {
-        System.out.println("sean sound");
+    public static void main(String[] args) {
+        Student temp = new Student("sean", 0, 3.3, "sf", "sf");
+        System.out.println(temp);
     }
 }

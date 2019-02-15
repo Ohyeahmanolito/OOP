@@ -22,6 +22,7 @@ public class ScentedCandle extends Candle{
 
     @Override
     public void setHeight(double height) {
+        this.height = height;
         this.price = 3 * height;
     }
     

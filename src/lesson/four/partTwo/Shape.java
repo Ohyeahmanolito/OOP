@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson.three.partTwo;
+package lesson.four.partTwo;
 
 /**
  *
  * @author ITRO
  */
-public class Sean extends Dog {
+public abstract class Shape {
 
-    public Sean() {
-        System.out.println("aw aw sean constructor");
-    }
+    private String color;
+
+    public abstract double getArea();
 
     @Override
-    public void sound() {
-        System.out.println("sean sound");
+    public String toString() {
+        return "inside shape";
     }
 }

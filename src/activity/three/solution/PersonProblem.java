@@ -38,6 +38,7 @@ public class PersonProblem {
         people.add(piepie);
         people.add(niar);
         people.add(helen);
+        
         for (PersonProblem pip : people) {
             String name = pip.getName();
             System.out.println("the name is: " + name);
