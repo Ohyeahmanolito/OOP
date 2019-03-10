@@ -5,6 +5,7 @@
  */
 package lesson.five.view;
 
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -24,13 +25,19 @@ public class MyViewTwo {
         buttonOne.setToolTipText("Sarap");
         buttonOne.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+            public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null, "Inside button", "Display only", JOptionPane.INFORMATION_MESSAGE);
             }
         });
 
         JButton buttonTwo = new JButton("Open");
         buttonTwo.setToolTipText("Mas masarap ka");
+        buttonTwo.setName("haha");
+        buttonTwo.addActionListener(new MyListener());
+
+        JButton buttonThree = new JButton("HELLO");
+        buttonTwo.setToolTipText("Mas masarap ka");
+        buttonTwo.setName("X");
         buttonTwo.addActionListener(new MyListener());
 
         JFrame frame = new JFrame("MyViewTwo");
@@ -38,12 +45,15 @@ public class MyViewTwo {
 
         panel.add(buttonOne);
         panel.add(buttonTwo);
+        panel.add(buttonThree);
 
         frame.getContentPane().add(panel);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setSize(300, 200);
+
+        frame.setResizable(false);
         frame.setVisible(true);
     }
 }

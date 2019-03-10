@@ -26,9 +26,6 @@ public class Shape {
 
     // All shapes must have a method called getArea().
     public double getArea() {
-        // We have a problem here!
-        // We need to return some value to compile the program.
-        System.out.println("Shape unknown! Cannot compute area!");
         return 0;
     }
 }

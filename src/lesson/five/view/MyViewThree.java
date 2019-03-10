@@ -23,12 +23,20 @@ public class MyViewThree {
         panel.setLayout(new GridLayout(3, 3));
 
         JTextField customText = new CustomTextField();
+        customText.setBackground(Color.red);
         panel.add(customText);
+        
+        panel.add(new CustomTextField());
+        panel.add(new CustomTextField());
+        panel.add(new CustomTextField());
+        panel.add(new CustomTextField());
+        panel.add(new CustomTextField());
+        panel.add(new CustomTextField());
         panel.add(new CustomTextField());
 
         JFrame frame = new JFrame("Swing MVC Demo");
+        panel.setBackground(Color.pink);
         frame.add(panel);
-        frame.setBackground(Color.BLUE);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setSize(300, 200);

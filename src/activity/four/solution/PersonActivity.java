@@ -14,10 +14,7 @@ public class PersonActivity {
     private String name;
     private String address;
 
-    public PersonActivity() {
-
-        System.out.println("Inside personAcitvity empty");
-    }
+   
 
     public PersonActivity(String name, String address) {
         this.name = name;

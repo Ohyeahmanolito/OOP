@@ -20,7 +20,7 @@ public class TestShape {
         System.out.println(s2);  // Run Triangle's toString()
         System.out.println("Area is " + s2.getArea());  // Run Triangle's getArea()
 
-        Triangle tingl = (Triangle) s2;
+        Rectangle tingl = (Rectangle) s2;
         System.out.println("tingl: " + tingl);
         System.out.println("tingl area: " + tingl.getArea());
 

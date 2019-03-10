@@ -13,7 +13,6 @@ public class TheCircleTwo implements GeometricObject {
 
     public TheCircleTwo(double radius) {
     }
-
     
     
     @Override

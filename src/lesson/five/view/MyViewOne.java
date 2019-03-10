@@ -18,6 +18,8 @@ public class MyViewOne {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setSize(300, 200);
+        frame.setResizable(false);
         frame.setVisible(true);
+
     }
 }

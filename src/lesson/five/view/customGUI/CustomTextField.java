@@ -14,11 +14,8 @@ import javax.swing.JTextField;
  */
 public class CustomTextField extends JTextField {
 
-    private Color myBackground = Color.RED;
-
-    @Override
-    public void setBackground(Color bg) {
-        super.setBackground(myBackground);
+    public CustomTextField() {
+        System.out.println("customize the field");
     }
-
+    
 }
