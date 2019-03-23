@@ -30,10 +30,10 @@ public class SampleGUI {
         // Create the first row
         model.insertRow(0, rowValues);
 
-        rowValues = new String[]{"NNN", "KKK"};
+        rowValues = new String[]{"NNN", "KKK", "FFF"};
         model.insertRow(1, rowValues);
 
-        rowValues = new String[]{"XXX", "YYY"};
+        rowValues = new String[]{"XXX"};
         int position = 2;
         model.insertRow(position, rowValues);
 
