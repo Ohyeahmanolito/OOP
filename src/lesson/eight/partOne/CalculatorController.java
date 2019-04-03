@@ -12,9 +12,8 @@ import java.awt.event.ActionListener;
  */
 public class CalculatorController implements ActionListener {
 
-    private CalculatorModel model = null;
-
-    private CalculatorView view = null;
+    private CalculatorModel model;
+    private CalculatorView view;
 
     /**
      * This saves the model and and view.

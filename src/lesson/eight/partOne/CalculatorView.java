@@ -57,7 +57,6 @@ public class CalculatorView {
         for (String s : buttonStrings) {
             buttonsPanel.add(new JButton(s));
         }
-
     }
 
     /**
@@ -70,7 +69,9 @@ public class CalculatorView {
 
         //Get all components (widgets) in the panel
         Component[] components = buttonsPanel.getComponents();
+        
         for (Component component : components) {
+        
             if (component instanceof AbstractButton) {
                 // Force cast to get the Abstractbutton (properties of button) 
                 // since we all know that all components are button.

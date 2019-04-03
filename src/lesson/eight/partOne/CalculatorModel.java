@@ -36,6 +36,7 @@ public class CalculatorModel {
             start = false;
             dot = false;
         }
+        
         if (text.length() == 1 && "0123456789".indexOf(text) >= 0) {
             displayString += text;
             displayValue = Double.valueOf(displayString);
