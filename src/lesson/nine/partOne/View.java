@@ -77,7 +77,7 @@ public class View {
         buttonOne.addActionListener(listener);
         buttonTwo.addActionListener(listener);
         buttonThree.addActionListener(listener);
-        System.out.println("done setup");
+       
     }
 
     void launch() {
